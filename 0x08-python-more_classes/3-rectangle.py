@@ -83,4 +83,6 @@ class Rectangle:
 
     def __str__(self) -> str:
         """get basic rectangle built using # with width and height defined"""
+        if self.width == 0 or self.height == 0:
+            return ""
         return ("\n".join(['#' * self.width] * self.height))
