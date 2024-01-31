@@ -5,6 +5,7 @@ Functions:
     add_integer(int|float, int|float) -> int
 """
 
+
 def add_integer(a, b=98):
     """Adding two number
     parameters:
