@@ -11,6 +11,7 @@ classes:
 from models.base import Base
 import unittest
 
+
 class TestBase(unittest.TestCase):
     '''
     A test Class that inherit from unittest TestCase
@@ -34,5 +35,6 @@ class TestBase(unittest.TestCase):
             b = Base(d)
             self.assertEqual(b.id, d)
 
-if __name__=='__main__':
-	unittest.main()
+
+if __name__ == '__main__':
+    unittest.main()
