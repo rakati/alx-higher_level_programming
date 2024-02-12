@@ -19,7 +19,8 @@ class TestBase(unittest.TestCase):
     '''
 
     def test_class_attr(self):
-        print("Running test_class_attr...")
+        '''testing class attribute'''
+
         id = 0
         for i in range(10):
             b = Base()
@@ -27,9 +28,10 @@ class TestBase(unittest.TestCase):
             self.assertEqual(b.id, id)
 
     def test_inst_attr(self):
+        '''testing instance attribute'''
+
         from random import randint
 
-        print("Running test_inst_attr...")
         for i in range(5):
             d = randint(0, 400)
             b = Base(d)
