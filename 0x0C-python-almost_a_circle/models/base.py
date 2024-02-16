@@ -8,7 +8,9 @@ classes:
 
 
 class Base:
-    '''A simple Class that will be used as Base'''
+    '''
+    A simple Class that will be used as Base
+    '''
 
     __nb_objects = 0
 
