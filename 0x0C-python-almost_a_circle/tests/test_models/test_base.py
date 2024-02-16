@@ -4,12 +4,13 @@ This Module is for testing the Base class
 
 classes:
 --------
-    - Base class
+    - TestBase class
 '''
 
 
-from models.base import Base
 import unittest
+from random import randint
+from models.base import Base
 
 
 class TestBase(unittest.TestCase):
@@ -21,16 +22,14 @@ class TestBase(unittest.TestCase):
     def test_class_attr(self):
         '''testing class attribute'''
 
-        id = 0
+        id_ = 0
         for i in range(10):
             b = Base()
-            id += 1
-            self.assertEqual(b.id, id)
+            id_ += 1
+            self.assertEqual(b.id, id_)
 
     def test_inst_attr(self):
         '''testing instance attribute'''
-
-        from random import randint
 
         for i in range(5):
             d = randint(0, 400)
