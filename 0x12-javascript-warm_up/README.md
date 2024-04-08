@@ -1,7 +1,7 @@
 # alx-high_level_programming
 Introduction to high level programming with Python language
 ## 0x12. JavaScript - Warm up
-
+[![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg)](https://github.com/standard/semistandard)
 **General:**
 - Why JavaScript programming is amazing
 - How to run a JavaScript script
